@@ -1,2 +1,1 @@
-# cake-factory
-This is a cake ordering website
+this is a landing page built using Html and CSS
