@@ -1,0 +1,130 @@
+*
+{
+    margin: 0;
+    padding :0;
+    box-sizing: border-box;
+    font-family: "Gilroy";
+}
+html,body
+{
+    width: 100%;
+    height: 100%;
+}
+#main
+{
+    display: flex;
+    height:  100%;
+    width: 100%;
+    background-color:  red;
+}
+ #left
+ {
+    height:100%;
+    width: 40%;
+    background-color: white;
+    position:relative;
+ }
+#right
+{
+    height: 100%;
+    width: 60%;
+    background-color: purple;
+}
+ 
+
+#righttop
+{
+    display: flex;
+    height: 50%;
+    width:100%;
+    background-color: aqua;
+}
+#rightbottom
+{
+    height: 50%;
+    width: 100%;
+    background-image: url(https://images.unsplash.com/photo-1574085733277-851d9d856a3a?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1476&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rightleft
+{
+    height: 100%;
+    width: 50%;
+    background-image: url(https://images.unsplash.com/photo-1607478900766-efe13248b125?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+    background-size: cover;
+    background-position: center;
+}
+#rightright
+{
+    height: 100%;
+    width: 50%;
+   background-image: url(https://images.unsplash.com/photo-1514517521153-1be72277b32f?ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D&auto=format&fit=crop&w=1374&q=80);
+  background-size: cover;
+  background-position: center;
+}
+#navbar
+{
+   width: 100%;
+   display: flex;
+   justify-content: space-between;
+    padding: 20px 30px;
+
+}
+#lnavr a
+{
+ 
+    color:black;
+    font-weight: 500;
+    margin-right :20px;
+    text-decoration: none;
+    font-size: 14px;
+}
+#lnavr
+{
+    display:flex;
+    align-items: center;
+}
+#lnavr i
+{
+    color:royalblue;
+}
+  #left #text
+{
+    position: absolute;
+    top:50%;
+    left :50%;
+    transform : translate(-50% , -50%);
+}
+#text h1{
+    font-size: 98px;
+    font-weight: 600px;
+}
+#text p{
+  opacity: .6;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  line-height: 20px;
+  font-size: 14px;
+
+}
+#text a{
+    color:black;
+    border-bottom: 1px solid black;
+    
+}
+@media (max-width: 500px)
+{
+    #main
+    {
+            flex-direction: column;
+    }
+     #main #left
+     {
+        width : 100%;
+     }
+     #main #right
+     {
+        width : 100%;
+     }
+}
